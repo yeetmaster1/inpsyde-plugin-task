@@ -32,7 +32,9 @@ Anyway to make up for the fact that my phpunit broke and i couldn't run the test
 [references used](http://web.mit.edu/6.005/www/fa16/classes/03-testing/#reading_3_testing)
 ## End To End test
 1.As i said i did an ete test to make up for my faultiy phpunit module but this test needs [installation](https://www.protractortest.org/#/tutorial).
+
 2. After that installation you need to go to etoe_test folder and then to ETOE_sample.js file and change the wordpress password and username and the link of the admin page, I use xampp for the server so that address is in regards to my local host don't worry there are comments to direct you.
+
 3.The reason you need to do the previous step is that the test runs the browser and goes to the address and since it's an admin menu page you need the password and username and the right link.
 
 ## Thinking process 
