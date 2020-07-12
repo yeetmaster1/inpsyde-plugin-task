@@ -19,7 +19,7 @@ $(document).ready(function(){
     let y = 0;
     
      //make the html table
-     $("#here").append('<td class="border border-primary id1" ><a href="javascript:;" class="sh1">1</a></td><td class="border border-primary" ><p class="tl1"></p></td><td class="border border-primary "><p class="usn1"></p></td><td class="border border-primary "><p class="em1"></p></td>');
+     $("#here").append('<td class="border border-primary id1" ><a href="javascript:;" class="sh1">show user info</a></td><td class="border border-primary" ><p class="tl1"></p></td><td class="border border-primary "><p class="usn1"></p></td><td class="border border-primary "><p class="em1"></p></td>');
      //click function to rotate between user info 
      $('.sh1').on('click',function ClickRotate(){
 	  
